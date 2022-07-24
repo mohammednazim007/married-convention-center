@@ -1,0 +1,117 @@
+/* font-awesome */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Open+Sans:ital,wght@0,400;1,300&family=Oswald:wght@400;500;600&family=Poppins:wght@500&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+span,
+small,
+p,
+a {
+  font-family: "Inter", sans-serif;
+}
+
+/* ========== navba ========== */
+a.nav-link {
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0px 3px;
+}
+.custom-nav-list a:hover {
+  background-color: aquamarine;
+  transition: 0.5s;
+}
+
+/* ============= slide section with image================== */
+.custom-font {
+  font-size: 2.5rem;
+  max-width: 55%;
+  margin: auto;
+}
+p.custom-p {
+  max-width: 45%;
+  margin: auto;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* ============= happy section================= */
+.position-absolute.custom_poistion {
+  right: 0px;
+}
+
+/* ============== peckage section =============== */
+ul.service_ul_list {
+  margin-top: 1rem;
+}
+
+ul.service_ul_list li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+
+ul.service_ul_list li a {
+  text-decoration: none;
+  color: teal;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+ul.service_ul_list i {
+  margin-right: 9px;
+  color: darkturquoise;
+}
+
+ul.service_ul_list {
+  padding-left: 0;
+}
+.card.custom_card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+div#bg-card {
+  background: teal;
+  color: white;
+}
+
+div#bg-card li a {
+  color: white;
+}
+#custom-card-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+/* =============== client testimonial================= */
+.custom-single-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+/* =================== Frequently Asked Questions ================ */
+.question_main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.container.footer_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rigth_f_icon img {
+  width: 39%;
+}
+
+.left_f_text {
+  text-align: center;
+}
